@@ -5,7 +5,6 @@
 
 This web site is intended for The Corredor Biologico Peninsular (Biologic Peninsular Corridor) in Costa Rica.
 
-
 ## Technologies in Use
 
 - Django 3
