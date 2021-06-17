@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+{% include 'base/head.html' %}
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+    <!-- ========================= header start ========================= -->
+    {% include 'base/header.html' %}
+    <!-- ========================= header end ========================= -->
+
+
+{% block content %}
+{% endblock content %}
+    <!-- ========================= footer start ========================= -->
+    {% include 'base/footer.html' %}
+    <!-- ========================= footer end ========================= -->
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+{% include 'base/scripts.html' %}
+</body>
+
+</html>

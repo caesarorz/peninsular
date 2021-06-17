@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+
+
+{% block content %}
+
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content left">
+                        <h1 class="page-title">Nosotros</h1>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-12">
+                <nav class="navbar navbar-expand-lg navbar-light pt-3">
+                  
+                      <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                          <li class="breadcrumb-item active" aria-current="page"><a href="#">Nosotros</a></li>
+                        </ol>
+                      </nav>
+                  
+                  </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- End Breadcrumbs -->
+
+    <!-- Start Features Area -->
+    <section class="Features section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="feature-content">
+
+
+                        <div class="feature-item wow fadeInUp" data-wow-delay=".7s">
+
+                                         
+                                <p>El Corredor Biológico Peninsular (CBP) fue creado en el año 1998 y forma parte de los primeros corredores biológicos establecidos a nivel nacional. 
+                                    Su creación es fruto de una serie de los esfuerzos de conservación de las comunidades del Sur de la Península de Nicoya que datan desde la década 
+                                    de los años 60.  </p>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="feature-right wow fadeInUp" data-wow-delay=".3s">
+                     
+                            <img src="{% static 'images/hitos.jpg' %}" alt="">
+              
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Features Area -->
+    <!-- Start Mision and Vision area -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+                  <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Misión</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Visión</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Objetivos</a>
+                    </li>
+                  </ul>
+                  
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <p>Somos una plataforma consolidada de actores locales que gestiona y articula esfuerzos que garantizan la conectividad de las áreas silvestres protegidas, 
+                            la conservación de la biodiversidad, el aprovechamiento sostenible de los recursos naturales y la adaptación al cambio climático. </p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <p>Ser un área de bienestar social, económico y ambiental, promovida por una plataforma local que brinda conectividad entre áreas silvestres y en donde se 
+                            preserva la biodiversidad y la provisión de los servicios eco sistémicos. </p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <img class="img-fluid" src='{% static "images/objetivos.png" %}' alt="Objetivos Estratégicos">
+                    </div>
+                  </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+	<!-- End Mision and Vision area-->
+
+
+{% endblock %}

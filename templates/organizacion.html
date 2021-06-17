@@ -1,0 +1,253 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block content %}
+
+
+<div class="container">
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Junta Directiva</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Comite Local</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Asociados</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-4 row-cols-md-4 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{% static 'images/presidente.jpg' %}" alt="" class="img-fluid">
+    
+                <div class="card-body">
+                  <p class="card-text text-center">Presidente</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{% static 'images/vicepresidente.jpg' %}" alt="" class="img-fluid">
+                <div class="card-body">
+                  <p class="card-text text-center">Vicepresidente</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{% static 'images/secretario.jpg' %}" alt="" class="img-fluid">        
+                <div class="card-body">
+                  <p class="card-text text-center">Secretario</p>
+
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{% static 'images/tesorero.jpg' %}" alt="" class="img-fluid">        
+                <div class="card-body">
+                  <p class="card-text text-center">Tesorero</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="{% static 'images/fiscal.jpg' %}" alt="" class="img-fluid">        
+                  <div class="card-body">
+                    <p class="card-text text-center">Fiscal</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://placehold.co/273x225" alt="" class="img-fluid">        
+                  <div class="card-body">
+                    <p class="card-text text-center">Vocal1</p>
+
+                  </div>
+                </div>
+              </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{% static 'images/vocal.jpg' %}" alt="" class="img-fluid">        
+                <div class="card-body">
+                  <p class="card-text text-center">Vocal2</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{% static 'images/vocal2.jpg' %}" alt="" class="img-fluid">        
+                <div class="card-body">
+                  <p class="card-text text-center">Vocal3</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+      
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+      <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="feature-content">
+                
+                    <p>Conformado por representantes de la sociedad civil, organizaciones e instituciones con incidencia en la planificación y gestión de los 
+                        recursos naturales dentro del territorio del CBP. </p>
+                    
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-md-6 col-12">
+                <div class=" fadeInUp" data-wow-delay=".3s">
+                
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Sector</th>
+                            <th>Representante</th>
+                  
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Sector Civil agropecuario</td>
+                            <td>Sonia Durón</td>
+                
+                          </tr>
+                          <tr>
+                            <td>Sector del Recurso Hídrico</td>
+                            <td>Roy Arias (ASADAS)</td>
+        
+                          </tr>
+                          <tr>
+                            <td>Sector Civil Forestal</td>
+                            <td>Grethel Salazar</td>
+    
+                          </tr>
+                          <tr>
+                            <td>Sector Civil Turismo</td>
+                            <td>Juan Carlos Cruz, Juan Carlos Aguirre y Mónica Castro Dubon</td>
+    
+                          </tr>
+                          <tr>
+                            <td>Sector Municipal</td>
+                            <td>Alberto Vásquez Granados</td>
+    
+                          </tr>
+                          <tr>
+                            <td>Organizaciones no gubernamentales</td>
+                            <td>Vernon Arias Vega (ASOPROLAPA) e Isabel Batista Sandi (ASEPALECO)</td>
+    
+                          </tr>
+                          <tr>
+                            <td>Instituciones Púbilicas</td>
+                            <td>Leda Ramos Falcón (MAG), 
+                                Olger Jiménez Molina (INDER), 
+                                Franklin Murillo Rojas (OSRC – ACT- SINAC)
+                                Luis Ángel Mena Aguilar (OSRLP-ACT – SINAC)
+                                </td>
+    
+                          </tr>
+                          <tr>
+                            <td>Áreas Silvestres Protegidas</td>
+                            <td>Arno Ambrosis (RNVS La Nicoyana), Oscar Cubero Vásquez (RNVS – Romelia)</td>
+    
+                          </tr>
+                        </tbody>
+                        <tfoot>
+                          <tr>
+                            <td class="fw-bold">Enlace SINAC</td>
+                            <td>Carolina Orozco Zamora</td>
+  
+                          </tr>
+                        </tfoot>
+                      </table>
+          
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+      <div class="container">
+        <div class="row">
+            <div class="col">
+            <h5 class="mb-1">Sector Institucional</h5>
+            <ul>
+                <li>Sistema Nacional de Áreas Protegidas (SINAC), Área de Conservación Tempisque</li>  
+                <li>Ministerio de Agricultura y Ganadería (MAG), Área Peninsular</li> 
+                <li>Instituto de Desarrollo Rural (INDER)</li> 
+            </ul>
+    
+            <h5 class="mb-1">Organizaciones de Base</h5>
+            <ul>
+                <li>Centro Agrícola Cantonal Jicaral </li> 
+                <li>Asociación Ecológica de Paquera, Lepanto y Cobano (ASEPALECO) </li> 
+                <li>Asociación de Desarrollo Integral de Paquera</li>  
+                <li>Acueducto Comunal de Paquera </li> 
+                <li>Asociación Pro-Conservación de la Lapa Roja (ASOPROLAPA) </li> 
+                <li>Asociación para la innovación y el Desarrollo de la Sustentabilidad y la Permacultura </li> 
+            </ul>
+            <h5 class="mb-1">Gobiernos Locales </h5>
+            <ul>
+                li>Concejo Municipal de Distrito de Cobano </li> 
+            </ul>
+            <h5>Sector Privado</h5>
+            <ul>
+                <li>Reserva La Nicoyana </li> 
+                <li>Refugio Nacional de Vida Silvestre Romelia </li> 
+                <li>Reserva Forestal Privada Matambú </li> 
+                <li>CAPATUR </li> 
+                <li>Brigada de Bomberos Forestales de Bahía Ballena. </li> 
+            </ul>
+            <h5 class="mb-1">Sector Productivo</h5>
+            <ul>
+                <li>Productores de Miel de Meliponias</li> 
+                <li>Publicaciones Bosque lluvioso.</li> 
+            </ul>
+            <h5 class="mb-1">Sector Turismo</h5>
+            <ul>
+                <li>JC´s journeys Costa Rica Naturally </li> 
+                <li>Villas Monarka, Malpaís </li> 
+                <li>Hotel Tambor Tropical </li> 
+            </ul>
+            <h5 class="mb-1">Sociedad Civil</h5>
+            <ul>
+                <li>Grethel Salazar Chaves </li> 
+                <li>Dunia Campos Salas </li> 
+            </ul>
+            <h5 class="mb-1">Organizaciones No Gubernamentales </h5>
+            <ul>
+                <li> Nicoya Península Birdwatching. </li> 
+                <li>Centro de Rescate Wild Sun. </li> 
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+  </div>
+
+</div>
+{% endblock %}
