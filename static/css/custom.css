@@ -1,4 +1,8 @@
 #modal-contactenos {
+    left: 35%;
+    top: 20%;
+    position: absolute;
+    z-index: 100;
 }
 
 .hidden {
@@ -7,4 +11,8 @@
 
 .show {
     display: block;
+}
+
+.shadow {
+    background-color: rgba(0, 0, 0, 0.4);
 }

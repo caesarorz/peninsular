@@ -3,7 +3,9 @@
 
 # Project
 
-This web site is intended for The Corredor Biologico Peninsular (Biologic Peninsular Corridor) in Costa Rica.
+This web site is intended for use in **The Corredor Biologico Peninsular** (Biologic Peninsular Corridor) project in Costa Rica.
+
+
 
 ## Technologies in Use
 
@@ -14,6 +16,9 @@ This web site is intended for The Corredor Biologico Peninsular (Biologic Penins
 
 # Contributors:
 
-King Way Lai (frontend and art)
-Cesar Orozco Zamora (backend and Javascript)
-Carolina Orozco Zamora (Project Manager)
+* King Way Lai (frontend and art), 
+* Cesar Orozco Zamora (backend and Javascript)
+
+
+# License:
+Photos and art are subject to license
