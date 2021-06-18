@@ -1,5 +1,3 @@
-## Message:
->Not online yet. 
 
 # Project
 
@@ -14,11 +12,11 @@ This web site is intended for use in **The Corredor Biologico Peninsular** (Biol
 - SQLite 3
 - AWS Elastic BeanStack
 
-# Contributors:
+## Contributors:
 
 * King Way Lai (frontend and art), 
 * Cesar Orozco Zamora (backend and Javascript)
 
 
-# License:
+## License:
 Photos and art are subject to license
