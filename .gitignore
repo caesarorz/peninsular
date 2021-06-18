@@ -3,3 +3,4 @@ db.sqlite3
 staticfiles/
 main/__pycache__/
 src_django.zip
+main/secret.py
